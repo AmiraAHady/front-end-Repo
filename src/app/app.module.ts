@@ -8,6 +8,8 @@ import { MoviesComponent } from './movies/movies.component';
 import { EventTestComponent } from './event-test/event-test.component';
 import { FormsModule } from '@angular/forms';
 import { StarComponent } from './star/star.component';
+import { DummyComponent } from './dummy/dummy.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { StarComponent } from './star/star.component';
     FirstComponent,
     MoviesComponent,
     EventTestComponent,
-    StarComponent
+    StarComponent,
+    DummyComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
