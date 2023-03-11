@@ -15,4 +15,7 @@ export class MoviesDataService {
     return this.http.get(`http://localhost:3000/movies`+pageQuery)
   }
 
+  getTVShows():Observable<any>{
+    return this.http.get(`https://api.themoviedb.org/3/tv/popular?api_key=38e52bad77ebe70a2fa84bd0e6051118&language=en-US&page=1`)
+  }
 }
