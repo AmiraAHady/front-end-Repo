@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { CustomPipePipe } from './custom-pipe.pipe';
@@ -8,8 +9,9 @@ import { MoviesComponent } from './movies/movies.component';
 import { EventTestComponent } from './event-test/event-test.component';
 import { FormsModule } from '@angular/forms';
 import { StarComponent } from './star/star.component';
-import { DummyComponent } from './dummy/dummy.component';
+// import { DummyComponent } from './dummy/dummy.component';
 import { HeaderComponent } from './header/header.component';
+import { MoviesDetailsComponent } from './movies-details/movies-details.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { HeaderComponent } from './header/header.component';
     MoviesComponent,
     EventTestComponent,
     StarComponent,
-    DummyComponent,
-    HeaderComponent
+    // DummyComponent,
+    HeaderComponent,
+    MoviesDetailsComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
