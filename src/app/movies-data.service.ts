@@ -9,8 +9,8 @@ export class MoviesDataService {
 
   constructor(private http:HttpClient) { }
 
-  public getValue(){
-    return 'Sample value';
+  public getValue(name:string){
+    return `Hello ${name}`;
   }
 
   getMovieById(movieId:string){

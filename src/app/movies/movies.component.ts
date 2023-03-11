@@ -22,7 +22,7 @@ export class MoviesComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.moviesService.getValue();
+    this.moviesService.getValue("amira");
   }
 
   search():String{
