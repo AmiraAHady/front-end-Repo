@@ -9,8 +9,10 @@
             style="width: 100%"
           />
           <div class="card-body">
+          
+            <h4 class="card-title">{{ singleMovie.title |uppercase}}</h4>
             <h4 class="card-title">{{ singleMovie.content }}</h4>
-            <h4 class="card-title">{{ singleMovie.title }}</h4>
+            <h4 class="card-title">{{ singleMovie.rating }}</h4>
             <p class="card-text" *ngIf="singleMovie.isVisiable">
               {{ singleMovie.overview }}
             </p>
