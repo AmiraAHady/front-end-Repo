@@ -6,6 +6,8 @@ import { CustomPipePipe } from './custom-pipe.pipe';
 import { FirstComponent } from './first/first.component';
 import { MoviesComponent } from './movies/movies.component';
 import { EventTestComponent } from './event-test/event-test.component';
+import { FormsModule } from '@angular/forms';
+import { StarComponent } from './star/star.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { EventTestComponent } from './event-test/event-test.component';
     CustomPipePipe,
     FirstComponent,
     MoviesComponent,
-    EventTestComponent
+    EventTestComponent,
+    StarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
