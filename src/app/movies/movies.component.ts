@@ -22,7 +22,7 @@ export class MoviesComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.moviesService.getValue();
+    this.moviesService.addNewMovie('spiderman',"imagePath","action movie");
   }
 
   search():String{
