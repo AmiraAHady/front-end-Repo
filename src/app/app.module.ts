@@ -12,6 +12,7 @@ import { StarComponent } from './star/star.component';
 // import { DummyComponent } from './dummy/dummy.component';
 import { HeaderComponent } from './header/header.component';
 import { MoviesDetailsComponent } from './movies-details/movies-details.component';
+import { TvListComponent } from './tv-list/tv-list.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MoviesDetailsComponent } from './movies-details/movies-details.componen
     StarComponent,
     // DummyComponent,
     HeaderComponent,
-    MoviesDetailsComponent
+    MoviesDetailsComponent,
+    TvListComponent
   ],
   imports: [
     BrowserModule,
