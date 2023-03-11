@@ -20,4 +20,7 @@ describe('EventTestComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should update', () => {
+    expect(component).toBeTruthy();
+  });
 });

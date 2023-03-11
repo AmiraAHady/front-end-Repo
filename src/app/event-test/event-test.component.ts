@@ -22,4 +22,8 @@ export class EventTestComponent implements OnInit {
     this.countClicks--;
   }
 
+  sayhelloFromEvent():String{
+    return 'hello from Event^-^'
+  }
+
 }
